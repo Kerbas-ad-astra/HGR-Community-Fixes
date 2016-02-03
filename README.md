@@ -11,15 +11,17 @@ I've been singing the praises of OrionKermin's Home Grown Rockets for a long tim
 The following patches are contained in this package (broken out into separate files so others can tinker and critque more easily):
 
 * An AntennaRange adaptation patch for the solar panel -- if AntennaRange is installed, its range will match that of the Communotron 16 whip antenna (suitable for LKO with a level 1 tracking station).
-	* There's also a RemoteTech patch as well.  (I don't use RT, so no comment on this one.)
-	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
-* ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
-* Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
 * Cost and mass fixes for the fuel tanks and fairing.
 * Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
-* A KIS patch to add an inventory to the Lima supply capsule.
+* Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
-* Engine patches for the SoyJuice descent modules.	They now have Isp curves like Sepratrons, and their TWRs match.
+* ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
+* A KIS patch to add an inventory to the Lima supply capsule.
+	* If you have a life support addon installed (TAC-LS, USI-LS, or Snacks!), the Lima will also include some supplies.
+* The 1.25m inline parachute is not surface-attachable, and now does not claim to be in the editor.  The 0.625m inline parachute now opens at the same altitudes and pressures as the Mk16.
+* A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
+	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
+* Engine patches for the SoyJuice descent modules.	They now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.
 * A "backup" RPM config, in case people forget (or rather, so that people aren't forced to remember) to change HGR/Spaces/SoyInt/internal2_RPM**.txt** to a **.cfg** file.
 
 ##Dependencies
