@@ -16,8 +16,8 @@ The following patches are contained in this package (broken out into separate fi
 * Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
 * ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
-* A KIS patch to add an inventory to the Lima supply capsule.
-	* If you have a life support addon installed (TAC-LS, USI-LS, or Snacks!), the Lima will also include some supplies.
+* If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Lima, Daikon, and Edamame service modules will include some extra supplies.
+* If you have KIS, the Lima supply capsule will have some "dry inventoy" space.
 * The 1.25m inline parachute is not surface-attachable, and now does not claim to be in the editor.  The 0.625m inline parachute now opens at the same altitudes and pressures as the Mk16.
 * A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
 	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
@@ -49,7 +49,7 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 
 ##Version history and changelog
 
-* 2016 02 XX (1.0): Initial release.
+* 2016 02 06 (1.0): Initial release.
 
 ##Roadmap
 
