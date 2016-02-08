@@ -1,0 +1,27 @@
+@PART[dockingPortHGR]:HAS[!MODULE[ModuleConnectedLivingSpace]]
+{
+	MODULE
+	{
+		name = ModuleConnectedLivingSpace
+		passable = true
+		passableWhenSurfaceAttached = true
+	}
+}
+
+@PART[Soy-Green,Soy-Juice,Radish,PumpkinLanderCabin,OnionNew,OnionNew2,HGR_Leek,Spud]:HAS[!MODULE[ModuleConnectedLivingSpace]]
+{
+	MODULE
+	{
+		name = ModuleConnectedLivingSpace
+		passable = true
+	}
+}
+
+@PART[HGR_1875_125_Adapter,HGR_1875_250_Adapter]:HAS[!MODULE[ModuleConnectedLivingSpace]]
+{
+	MODULE
+	{
+		name = ModuleConnectedLivingSpace
+		passable = true
+	}
+}
