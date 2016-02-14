@@ -13,7 +13,9 @@ The following patches are contained in this package (broken out into separate fi
 * An AntennaRange adaptation patch for the solar panel -- if AntennaRange is installed, its range will match that of the Communotron 16 whip antenna (suitable for LKO with a level 1 tracking station).
 * Cost and mass fixes for the fuel tanks and fairing.
 * Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
+* The docking port is now surface-attachable.
 * Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
+* ASET IVA definitions for the Soy-Juice, Onion, and Leek pods.
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
 * ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
 * If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Lima, Daikon, and Edamame service modules will include some extra supplies.
@@ -22,6 +24,8 @@ The following patches are contained in this package (broken out into separate fi
 * A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
 	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
 * Engine patches for the SoyJuice descent modules.	They now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.
+* Tech tree adjustments, both for stock and Community Tech Tree.
+* WindowShine reflections for the solar panels (sadly, getting shiny windows requires modifications to the textures themselves, which is not happening until Orion comes back).
 * A "backup" RPM config, in case people forget (or rather, so that people aren't forced to remember) to change HGR/Spaces/SoyInt/internal2_RPM**.txt** to a **.cfg** file.
 
 ##Dependencies
@@ -50,14 +54,17 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 ##Version history and changelog
 
 * 2016 02 06 (1.0): Initial release.
+* 2016 02 14 (1.1): Vegetable Gardening
+	* Docking port, tech tree, and Windowshine patches added.
+	* ASET IVAs for SoyJuice, Onion, and Leek pods.
 
 ##Roadmap
 
-Nothing much -- just keeping things up-to-date.  Unless somebody else makes an up-to-date 1.875m 2-seater lander can and 2-seater blunt capsule -- that's about all I'd need to be done with HGR!
+Once the RemoteTech accept my pull request, I'll remove the RemoteTech patch from this collection.  Beyond that, nothing much -- just keeping things up-to-date.  Unless somebody else makes an up-to-date 1.875m 2-seater lander can and 2-seater blunt capsule -- that's about all I'd need to be done with HGR!
 
 ##Credits
 
-Thanks to speedwaystar for the RT patch, rasta013 for contributing to the lab patch, fatbrother for the fairing mass fix, pacbard for conributing to the engine patch, and ZentroCatson for contributing to the KIS patch.
+Thanks to speedwaystar for the Windowshine patch, and for contributing to the tech tree and docking port patches, rasta013 for contributing to the lab patch, fatbrother for the fairing mass fix, pacbard for conributing to the engine patch, Sp4C3M0nk3Y for the ASET IVAs, and ZentroCatson for contributing to the KIS patch.
 
 And of course, thanks are owed to OrionKermin for HGR itself!  We wouldn't have anything to fix if not for him.  :wink:
 
