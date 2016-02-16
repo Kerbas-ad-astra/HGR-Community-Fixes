@@ -2,7 +2,7 @@
 
 *Home-Grown Fixes for Home-Grown Rockets.*
 
-![HGR Community Fixes logo](https://github.com/Kerbas-ad-astra/HGR-COmmunity-Fixes/raw/master/HGR%20Community%20Fixes%20logo.png)
+![HGR Community Fixes logo](https://github.com/Kerbas-ad-astra/HGR-Community-Fixes/raw/master/HGR%20Community%20Fixes%20logo.png)
 
 ##Features
 
@@ -15,7 +15,6 @@ The following patches are contained in this package (broken out into separate fi
 * Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
 * The docking port is now surface-attachable.
 * Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
-* ASET IVA definitions for the Soy-Juice, Onion, and Leek pods.
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
 * ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
 * If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Lima, Daikon, and Edamame service modules will include some extra supplies.
@@ -47,7 +46,6 @@ Crawling through the part configs and weeding out years' worth of accumulated cr
 
 * [**GitHub**](https://github.com/Kerbas-ad-astra/HGR-Community-Fixes/releases)
 * CurseForge
-* KerbalStuff
 
 From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameData directory.  (If you've already renamed internal2_RPM.txt to internal2_RPM.cfg, you'll be asked if you want to replace it -- the files are identical, so it doesn't matter which you choose.)
 
@@ -57,7 +55,10 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 * 2016 02 14 (1.1): Vegetable Gardening
 	* Docking port, tech tree, and Windowshine patches added.
 	* ASET IVAs for SoyJuice, Onion, and Leek pods.
-
+* 2016 02 15 (1.1.1): Bugfixes
+	* Removed ASET IVA files (they need more attention)
+	* Added some cost updates to the LS patches (the cost of a part is its "wet cost", so when resources are added, the cost has to be increased as well).
+	
 ##Roadmap
 
 Once the RemoteTech accept my pull request, I'll remove the RemoteTech patch from this collection.  Beyond that, nothing much -- just keeping things up-to-date.  Unless somebody else makes an up-to-date 1.875m 2-seater lander can and 2-seater blunt capsule -- that's about all I'd need to be done with HGR!
