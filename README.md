@@ -40,7 +40,7 @@ If you're going to use 1.875m parts, you might as well get [**Filter Extension**
 Crawling through the part configs and weeding out years' worth of accumulated cruft got me thinking about alternatives.  I love the "Pumpkin" 2-seater lander can too much to give up on HGR just yet, but in case 1.1 lands and breaks HGR completely (or I just get tired of making config repairs), here are a couple of other addons which add 1.875m parts:
 
 * [**Socke's extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/) only has fuel tanks and separators/decouplers, and Socke hasn't been around since last October either.  Thankfully, Merill has made [**an update**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/&do=findComment&comment=1929389) for 1.0.x.
-* Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) is more complete and (more importantly) is actively developed and maintained.  It doesn't have a full range of engines, but there are enough adapters and multi-couplers to let stock engines fill in, and a 1.875m lab is coming soon. 
+* Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) is more complete and (more importantly) is actively developed and maintained.  It doesn't have a full range of engines, but there are enough adapters and multi-couplers to let stock engines fill in, and it has pretty much everything else, including a 1.875m "backseat" extension to the Mk1 command pod and a lab.
 
 ##Download and install
 
@@ -58,6 +58,10 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 * 2016 02 15 (1.1.1): Bugfixes
 	* Removed ASET IVA files (they need more attention)
 	* Added some cost updates to the LS patches (the cost of a part is its "wet cost", so when resources are added, the cost has to be increased as well).
+* 2016 03 01 (1.2): Heat Treatment
+	* Re-balanced the thermal properties of the engines.  They should now be no more prone to overheating than stock engines.
+	* Fixed Radish and Spud heat shield patches to stop them from turning black when ablated.
+	* Fixed lab patch (thanks speedwaystar!)
 	
 ##Roadmap
 
