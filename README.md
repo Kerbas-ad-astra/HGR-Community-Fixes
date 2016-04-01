@@ -16,6 +16,7 @@ The following patches are contained in this package (broken out into separate fi
 * The docking port is now surface-attachable.
 * An engine patch to bring the engines' thermal properties in line with stock.
 * Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
+* INTERNAL patches to reduce grumbling from KSP when RPM is not installed.
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
 * ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
 * If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Lima, Daikon, and Edamame service modules will include some extra supplies.
@@ -63,6 +64,9 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Re-balanced the thermal properties of the engines.  They should now be no more prone to overheating than stock engines.
 	* Fixed Radish and Spud heat shield patches to stop them from turning black when ablated.
 	* Fixed lab patch (thanks speedwaystar!)
+* 2016 04 XX (1.2.1): Cheaper by the dozen
+	* Fixed cost changes of life support patch to accommodate the updated price of USI-LS supplies.  Note that, because this change was made in a CRP update for 1.1, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.0.4 or 1.0.5.**
+	* Added a patch to delete RPM internal elements when RPM is not present, to reduce grumbling in the log.
 	
 ##Roadmap
 
