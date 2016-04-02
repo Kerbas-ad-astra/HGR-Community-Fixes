@@ -15,6 +15,7 @@ The following patches are contained in this package (broken out into separate fi
 * Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
 * The docking port is now surface-attachable.
 * An engine patch to bring the engines' thermal properties in line with stock.
+* Fairing patches to rebalance fairing masses.  (Unfortunately, I had to remove the fairing from the heavy LES tower due to unresolvable editor breaking, so now it's just a tower.)
 * Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
 * INTERNAL patches to reduce grumbling from KSP when RPM is not installed.
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
@@ -25,6 +26,7 @@ The following patches are contained in this package (broken out into separate fi
 * A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
 	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
 * Engine patches for the SoyJuice descent modules.	They now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.
+* Tags for the stock searching system.
 * Tech tree adjustments, both for stock and Community Tech Tree.
 * WindowShine reflections for the solar panels (sadly, getting shiny windows requires modifications to the textures themselves, which is not happening until Orion comes back).
 * A "backup" RPM config, in case people forget (or rather, so that people aren't forced to remember) to change HGR/Spaces/SoyInt/internal2_RPM**.txt** to a **.cfg** file.
@@ -39,7 +41,7 @@ If you're going to use 1.875m parts, you might as well get [**Filter Extension**
 
 ##Suggested addons
 
-Crawling through the part configs and weeding out years' worth of accumulated cruft got me thinking about alternatives.  I love the "Pumpkin" 2-seater lander can too much to give up on HGR just yet, but in case 1.1 lands and breaks HGR completely (or I just get tired of making config repairs), here are a couple of other addons which add 1.875m parts:
+Crawling through the part configs and weeding out years' worth of accumulated cruft got me thinking about alternatives.  I love the "Pumpkin" 2-seater lander can too much to give up on HGR just yet, but in case an update lands that breaks HGR completely (or I just get tired of making config repairs), here are a couple of other addons which add 1.875m parts:
 
 * [**Socke's extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/) only has fuel tanks and separators/decouplers, and Socke hasn't been around since last October either.  Thankfully, Merill has made [**an update**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/&do=findComment&comment=1929389) for 1.0.x.
 * Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) is more complete and (more importantly) is actively developed and maintained.  It doesn't have a full range of engines, but there are enough adapters and multi-couplers to let stock engines fill in, and it has pretty much everything else, including a 1.875m "backseat" extension to the Mk1 command pod and a lab.
@@ -67,6 +69,8 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 * 2016 04 XX (1.2.1): Cheaper by the dozen
 	* Fixed cost changes of life support patch to accommodate the updated price of USI-LS supplies.  Note that, because this change was made in a CRP update for 1.1, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.0.4 or 1.0.5.**
 	* Added a patch to delete RPM internal elements when RPM is not present, to reduce grumbling in the log.
+	* Added a patch to rebalance the mass of the 1.875m fairing, and remove the fairing module from the heavy LES tower (it was causing breakage in the editor in KSP 1.1).
+	* Added tags to parts.
 	
 ##Roadmap
 
