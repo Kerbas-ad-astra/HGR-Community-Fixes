@@ -26,7 +26,7 @@ The following patches are contained in this package (broken out into separate fi
 * A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
 	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
 * Engine patches for the SoyJuice descent modules.	They now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.
-* Tags for the stock searching system.
+* Tags for the stock searching system and constraints for part tests.
 * Tech tree adjustments, both for stock and Community Tech Tree.
 * WindowShine reflections for the solar panels (sadly, getting shiny windows requires modifications to the textures themselves, which is not happening until Orion comes back).
 * A "backup" RPM config, in case people forget (or rather, so that people aren't forced to remember) to change HGR/Spaces/SoyInt/internal2_RPM**.txt** to a **.cfg** file.
