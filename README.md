@@ -25,7 +25,7 @@ The following patches are contained in this package (broken out into separate fi
 * The 1.25m inline parachute is not surface-attachable, and now does not claim to be in the editor.  The 0.625m inline parachute now opens at the same altitudes and pressures as the Mk16.
 * A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
 	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
-* Engine patches for the SoyJuice descent modules.	They now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.
+* Engine patches for the SoyJuice descent modules and service module.  The descent modules now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
 * Tags for the stock searching system and constraints for part tests.
 * Tech tree adjustments, both for stock and Community Tech Tree.
 * WindowShine reflections for the solar panels (sadly, getting shiny windows requires modifications to the textures themselves, which is not happening until Orion comes back).
@@ -69,7 +69,8 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 * 2016 04 XX (1.2.1): Cheaper by the dozen
 	* Fixed cost changes of life support patch to accommodate the updated price of USI-LS supplies.  Note that, because this change was made in a CRP update for 1.1, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.0.4 or 1.0.5.**
 	* Added a patch to delete RPM internal elements when RPM is not present, to reduce grumbling in the log.
-	* Added a patch to rebalance the mass of the 1.875m fairing, and remove the fairing module from the heavy LES tower (it was causing breakage in the editor in KSP 1.1).
+	* Added a patch to rebalance the mass of the fairings.
+	* Added support for BahamutoD's Animated Engines.
 	* Added tags to parts.
 	
 ##Roadmap
