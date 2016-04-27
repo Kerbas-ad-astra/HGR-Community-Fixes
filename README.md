@@ -71,7 +71,8 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Added a patch to delete RPM internal elements when RPM is not present, to reduce grumbling in the log.
 	* Added a patch to rebalance the mass of the fairings and fix the Heavy LES tower.
 	* Added support for BahamutoD's Animated Engines.  (It's a bit late, since BDAnimationModules needs updating for 1.1, but we're ready when it is!)
-	* Added tags, and nicknamed the engines ("Grizzly", "Sunbear", and "Teddy", trying to stick with the Russian theme)
+	* Added tags, and nicknamed the engines ("Grizzly", "Sunbear", and "Teddy")
+	* Made SoyJuice solar panels non-retractable (and added a warning to their description).
 	
 ##Roadmap
 
