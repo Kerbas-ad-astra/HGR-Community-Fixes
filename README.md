@@ -70,8 +70,8 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Fixed cost changes of life support patch to accommodate the updated price of USI-LS supplies.  Note that, because this change was made in a CRP update for 1.1, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.0.4 or 1.0.5.**
 	* Added a patch to delete RPM internal elements when RPM is not present, to reduce grumbling in the log.
 	* Added a patch to rebalance the mass of the fairings and fix the Heavy LES tower.
-	* Added support for BahamutoD's Animated Engines.
-	* Beginning to add tags.
+	* Added support for BahamutoD's Animated Engines.  (It's a bit late, since BDAnimationModules needs updating for 1.1, but we're ready when it is!)
+	* Added tags, and nicknamed the engines ("Grizzly", "Sunbear", and "Teddy", trying to stick with the Russian theme)
 	
 ##Roadmap
 
