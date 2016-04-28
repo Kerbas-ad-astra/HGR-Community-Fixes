@@ -66,7 +66,7 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Re-balanced the thermal properties of the engines.  They should now be no more prone to overheating than stock engines.
 	* Fixed Radish and Spud heat shield patches to stop them from turning black when ablated.
 	* Fixed lab patch (thanks speedwaystar!)
-* 2016 04 XX (1.3): Cheaper by the dozen
+* 2016 04 27 (1.3): Naming Day
 	* Fixed cost changes of life support patch to accommodate the updated price of USI-LS supplies.  Note that, because this change was made in a CRP update for 1.1, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.0.4 or 1.0.5.**
 	* Added a patch to delete RPM internal elements when RPM is not present, to reduce grumbling in the log.
 	* Added a patch to rebalance the mass of the fairings and fix the Heavy LES tower.
