@@ -15,8 +15,7 @@ The following patches are contained in this package (broken out into separate fi
 * Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
 * The docking port is now surface-attachable.
 * An engine patch to bring the engines' thermal properties in line with stock.
-* Fairing patches to rebalance fairing masses.  (Unfortunately, I had to remove the fairing from the heavy LES tower due to unresolvable editor breaking, so now it's just a tower.)
-* Heat shield updates for the discrete heat shield, the Radish, and the Spud, so they match stock heat shields now.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
+* Fairing patches to rebalance fairing masses.
 * INTERNAL patches to reduce grumbling from KSP when RPM is not installed.
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
 * ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
@@ -28,6 +27,7 @@ The following patches are contained in this package (broken out into separate fi
 * Engine patches for the SoyJuice descent modules and service module.  The descent modules now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
 * Tags for the stock searching system and constraints for part tests.
 * Tech tree adjustments, both for stock and Community Tech Tree.
+* Thermal updates so that the capsules match stock capsules, and so that the discrete heat shield, the Radish, and the Spud match stock heat shields.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
 * WindowShine reflections for the solar panels (sadly, getting shiny windows requires modifications to the textures themselves, which is not happening until Orion comes back).
 * A "backup" RPM config, in case people forget (or rather, so that people aren't forced to remember) to change HGR/Spaces/SoyInt/internal2_RPM**.txt** to a **.cfg** file.
 
@@ -73,6 +73,9 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Added support for BahamutoD's Animated Engines.  (It's a bit late, since BDAnimationModules needs updating for 1.1, but we're ready when it is!)
 	* Added tags and part test constraints, and nicknamed the engines ("Grizzly", "Sunbear", and "Teddy")
 	* Made SoyJuice solar panels non-retractable (and added a warning to their description).
+* 2016 05 XX (1.3.1): Seared Tubers
+	* Updated thermal values of crew pods.
+	* Fixed a couple of tags.
 	
 ##Roadmap
 
