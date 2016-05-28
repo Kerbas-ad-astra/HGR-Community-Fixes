@@ -73,7 +73,7 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Added support for BahamutoD's Animated Engines.  (It's a bit late, since BDAnimationModules needs updating for 1.1, but we're ready when it is!)
 	* Added tags and part test constraints, and nicknamed the engines ("Grizzly", "Sunbear", and "Teddy")
 	* Made SoyJuice solar panels non-retractable (and added a warning to their description).
-* 2016 05 XX (1.3.1): Seared Tubers
+* 2016 05 28 (1.3.1): Seared Tubers
 	* Updated thermal values of crew pods.
 	* Fixed a couple of tags.
 	
