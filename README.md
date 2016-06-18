@@ -19,8 +19,9 @@ The following patches are contained in this package (broken out into separate fi
 * INTERNAL patches to reduce grumbling from KSP when RPM is not installed.
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
 * ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
-* If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Lima, Daikon, and Edamame service modules will include some extra supplies.
-* If you have KIS, the Lima supply capsule will have some "dry inventoy" space.
+* A new "Garlic" supply pod, to supplement the Lima.  If you have KIS, it will have some "dry inventory" space.
+	* If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Garlic, Daikon, and Edamame service modules will include some extra supplies.
+	* Even if you don't have those mods, the Garlic pod has SAS level 3, to help with docking.
 * The 1.25m inline parachute is not surface-attachable, and now does not claim to be in the editor.  The 0.625m inline parachute now opens at the same altitudes and pressures as the Mk16.
 * A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
 	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
@@ -76,6 +77,11 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 * 2016 05 28 (1.3.1): Seared Tubers
 	* Updated thermal values of crew pods.
 	* Fixed a couple of tags.
+* 2016 06 XX (1.4): Ogres are like Garlics
+	* New G4-LK "Garlic" supply module to ease the overloading of the Lima.  Note that the Lima no longer has life-support or KIS inventory storage -- that's been moved into the Garlic capsule.
+	* Added support for DeployableEngines (Nertea's plugin used for e.g. Cryogenic Engines).
+	* Fixed some spelling in part descriptions.
+	* Re-titled HGR's 1.875m fairing, to distinguish it from MOLE's.
 	
 ##Roadmap
 
