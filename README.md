@@ -77,8 +77,8 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 * 2016 05 28 (1.3.1): Seared Tubers
 	* Updated thermal values of crew pods.
 	* Fixed a couple of tags.
-* 2016 06 XX (1.4): Ogres are like Garlics
-	* New G4-LK "Garlic" supply module to ease the overloading of the Lima.  Note that the Lima no longer has life-support or KIS inventory storage -- that's been moved into the Garlic capsule.
+* 2016 06 26 (1.4): Ogres are like Garlics
+	* New G4-LK "Garlic" supply module to ease the overstuffing of the Lima.  Note that **the Lima no longer has life-support or KIS inventory storage** -- that's been moved into the Garlic capsule.
 	* Added support for DeployableEngines (Nertea's plugin used for e.g. Cryogenic Engines).
 	* Fixed some spelling in part descriptions.
 	* Re-titled HGR's 1.875m fairing, to distinguish it from MOLE's.
