@@ -11,6 +11,7 @@ I've been singing the praises of OrionKermin's Home Grown Rockets for a long tim
 The following patches are contained in this package (broken out into separate files so others can tinker and critque more easily):
 
 * An AntennaRange adaptation patch for the solar panel -- if AntennaRange is installed, its range will match that of the Communotron 16 whip antenna (suitable for LKO with a level 1 tracking station).
+	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
 * Cost and mass fixes for the fuel tanks and fairing.
 * Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
 * The docking port is now surface-attachable.
@@ -23,8 +24,6 @@ The following patches are contained in this package (broken out into separate fi
 	* If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Garlic, Daikon, and Edamame service modules will include some extra supplies.
 	* Even if you don't have those mods, the Garlic pod has SAS level 3, to help with docking.
 * The 1.25m inline parachute is not surface-attachable, and now does not claim to be in the editor.  The 0.625m inline parachute now opens at the same altitudes and pressures as the Mk16.
-* A RemoteTech patch for the solar panel.  (I don't use RT, so no comment on this one.)
-	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
 * Engine patches for the SoyJuice descent modules and service module.  The descent modules now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
 * Tags for the stock searching system and constraints for part tests.
 * Tech tree adjustments, both for stock and Community Tech Tree.
@@ -82,6 +81,8 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Added support for DeployableEngines (Nertea's plugin used for e.g. Cryogenic Engines).
 	* Fixed some spelling in part descriptions.
 	* Re-titled HGR's 1.875m fairing, to distinguish it from MOLE's.
+* 2016 XX (1.4.1): Remote Control
+	* Removed the RT patch (it's in RT now).  Therefore, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.1.0-2.**
 	
 ##Roadmap
 
