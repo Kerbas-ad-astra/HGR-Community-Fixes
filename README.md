@@ -27,6 +27,7 @@ The following patches are contained in this package (broken out into separate fi
 * Engine patches for the SoyJuice descent modules and service module.  The descent modules now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
 * Tags for the stock searching system and constraints for part tests.
 * Tech tree adjustments, both for stock and Community Tech Tree.
+* A texture-name-fixing patch for the Radish decoupler.
 * Thermal updates so that the capsules match stock capsules, and so that the discrete heat shield, the Radish, and the Spud match stock heat shields.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
 * WindowShine reflections for the solar panels (sadly, getting shiny windows requires modifications to the textures themselves, which is not happening until Orion comes back).
 * A "backup" RPM config, in case people forget (or rather, so that people aren't forced to remember) to change HGR/Spaces/SoyInt/internal2_RPM**.txt** to a **.cfg** file.
@@ -81,8 +82,10 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Added support for DeployableEngines (Nertea's plugin used for e.g. Cryogenic Engines).
 	* Fixed some spelling in part descriptions.
 	* Re-titled HGR's 1.875m fairing, to distinguish it from MOLE's.
-* 2016 XX (1.4.1): Remote Control
+* 2016 09 XX (1.4.1): Remote Control
 	* Removed the RT patch (it's in RT now).  Therefore, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.1.0-2.**
+	* Added a texture-name-fixing patch.
+	* License changed to GNU GPL v3 (or later).
 	
 ##Roadmap
 
@@ -96,4 +99,4 @@ And of course, thanks are owed to OrionKermin for HGR itself!  We wouldn't have 
 
 ##License
 
-HGR Community Fixes is copyright 2016 Kerbas_ad_astra.  Configuration files are released under the [**Apache 2.0 license**](https://www.apache.org/licenses/LICENSE-2.0).  All other rights (e.g. the HGR Community Fixes logo) reserved.
+HGR Community Fixes is copyright 2016 Kerbas_ad_astra.  Configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  All other rights (e.g. the HGR Community Fixes logo) reserved.
