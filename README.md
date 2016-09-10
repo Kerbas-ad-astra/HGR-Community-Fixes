@@ -82,7 +82,7 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Added support for DeployableEngines (Nertea's plugin used for e.g. Cryogenic Engines).
 	* Fixed some spelling in part descriptions.
 	* Re-titled HGR's 1.875m fairing, to distinguish it from MOLE's.
-* 2016 09 XX (1.4.1): Remote Control
+* 2016 09 10 (1.4.1): Remote Control
 	* Removed the RT patch (it's in RT now).  Therefore, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.1.0-2.**
 	* Added a texture-name-fixing patch.
 	* License changed to GNU GPL v3 (or later).
@@ -99,4 +99,4 @@ And of course, thanks are owed to OrionKermin for HGR itself!  We wouldn't have 
 
 ##License
 
-HGR Community Fixes is copyright 2016 Kerbas_ad_astra.  Configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  All other rights (e.g. the HGR Community Fixes logo) reserved.
+HGR Community Fixes is copyright 2016 Kerbas_ad_astra.  Configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the HGR Community Fixes logo) reserved.
