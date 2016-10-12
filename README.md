@@ -10,7 +10,7 @@ I've been singing the praises of OrionKermin's Home Grown Rockets for a long tim
 
 The following patches are contained in this package (broken out into separate files so others can tinker and critque more easily):
 
-* An AntennaRange adaptation patch for the solar panel -- if AntennaRange is installed, its range will match that of the Communotron 16 whip antenna (suitable for LKO with a level 1 tracking station).
+* Class-0 antennas added to all pods, and the OX-SJ solar panel is a stackable class-1 antenna.
 	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
 * Cost and mass fixes for the fuel tanks and fairing.
 * Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
@@ -19,12 +19,14 @@ The following patches are contained in this package (broken out into separate fi
 * Fairing patches to rebalance fairing masses.
 * INTERNAL patches to reduce grumbling from KSP when RPM is not installed.
 * A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
-* ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.
+* ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.  Probes and labs also provide the appropriate KerbNet access and experiment storage capability (the Lima descent capsule can gather experiments internally, to carry them back home).
 * A new "Garlic" supply pod, to supplement the Lima.  If you have KIS, it will have some "dry inventory" space.
 	* If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Garlic, Daikon, and Edamame service modules will include some extra supplies.
 	* Even if you don't have those mods, the Garlic pod has SAS level 3, to help with docking.
 * The 1.25m inline parachute is not surface-attachable, and now does not claim to be in the editor.  The 0.625m inline parachute now opens at the same altitudes and pressures as the Mk16.
-* Engine patches for the SoyJuice descent modules and service module.  The descent modules now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
+* The RCS parts have the new plume and sound effects.
+* A fully-staffed Pumpkin pod or suitably-staffed Leek laboratory can be used to provide control of probes.  (With one hop.)
+* Engine patches for the SoyJuice descent modules and service module.  The descent modules now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11+), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines or Nertea's Deployable Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
 * Tags for the stock searching system and constraints for part tests.
 * Tech tree adjustments, both for stock and Community Tech Tree.
 * A texture-name-fixing patch for the Radish decoupler.
@@ -86,6 +88,11 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Removed the RT patch (it's in RT now).  Therefore, **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.1.0-2.**
 	* Added a texture-name-fixing patch.
 	* License changed to GNU GPL v3 (or later).
+* 2016 10 12 (1.5): Plus Ultra
+	* Updated for KSP 1.2:
+		* AntennaRange patch removed.  (Since AntennaRange is superseded by the stock CommNet.)
+		* CommNet and KerbNet support added.
+		* New RCS plume and sound effects added to RCS parts.
 	
 ##Roadmap
 
