@@ -100,7 +100,7 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	
 ##Roadmap
 
-Once the RemoteTech accept my pull request, I'll remove the RemoteTech patch from this collection.  Beyond that, nothing much -- just keeping things up-to-date.  Unless somebody else makes an up-to-date 1.875m 2-seater lander can and 2-seater blunt capsule -- that's about all I'd need to be done with HGR!
+Nothing much -- just keeping things up-to-date.  Unless somebody else makes an up-to-date 1.875m 2-seater lander can and 2-seater blunt capsule -- that's about all I'd need to be done with HGR!
 
 ##Credits
 
