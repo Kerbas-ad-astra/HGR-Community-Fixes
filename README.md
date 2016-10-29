@@ -93,6 +93,10 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 		* AntennaRange patch removed.  (Since AntennaRange is superseded by the stock CommNet.)
 		* CommNet and KerbNet support added.
 		* New RCS plume and sound effects added to RCS parts.
+* 02016 10 29 (1.5.1): Transform and Deploy
+	* Fixed transform references for solar panel/antenna.
+	* Updated Edamame service module to ModuleEnginesFX.
+	* Moved parts to new categories (Engine, FuelTank, Coupling, Thermal, Payload, Electrical)
 	
 ##Roadmap
 
