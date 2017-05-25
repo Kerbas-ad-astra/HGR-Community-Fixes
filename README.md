@@ -6,7 +6,7 @@
 
 ##Features
 
-I've been singing the praises of OrionKermin's Home Grown Rockets for a long time.  The jump from Size 1 to Size 2 parts is extremely steep -- a fourfold increase in thrust and an eightfold increase in mass.  Having a set of intermediate 1.875m parts and 2-seater command pods really helps smooth things out.  Unfortunately, Orion hasn't logged on since October 2015, so HGR hasn't kept up with the changes in the latter half of the 1.0.x releases, and there are also a few minor errors that haven't been corrected.  There are a couple of mods with 1.875m parts, but neither one is quite enough to substitute for HGR, so I and others have been sharing Module Manager patches to repair or improve various parts.  These patches were scattered about the latter pages of the HGR thread, but now they're all in one place.
+I've been singing the praises of Orionkermin's Home Grown Rockets for a long time.  The jump from Size 1 to Size 2 parts is extremely steep -- a fourfold increase in thrust and an eightfold increase in mass.  Having a set of intermediate 1.875m parts and 2-seater command pods really helps smooth things out.  Orion hasn't had time to develop HGR since late 2015, but he's opened up the license so that I can adopt it and keep it ticking along in the future of KSP.
 
 The following patches are contained in this package (broken out into separate files so others can tinker and critque more easily):
 
@@ -31,8 +31,7 @@ The following patches are contained in this package (broken out into separate fi
 * Tech tree adjustments, both for stock and Community Tech Tree.
 * A texture-name-fixing patch for the Radish decoupler.
 * Thermal updates so that the capsules match stock capsules, and so that the discrete heat shield, the Radish, and the Spud match stock heat shields.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
-* WindowShine reflections for the solar panels (sadly, getting shiny windows requires modifications to the textures themselves, which is not happening until Orion comes back).
-* A "backup" RPM config, in case people forget (or rather, so that people aren't forced to remember) to change HGR/Spaces/SoyInt/internal2_RPM**.txt** to a **.cfg** file.
+* WindowShine reflections for the solar panels (getting shiny windows requires modifications to the textures themselves, which is not in my expertise).
 
 ##Dependencies
 
@@ -44,17 +43,17 @@ If you're going to use 1.875m parts, you might as well get [**Filter Extension**
 
 ##Suggested addons
 
-Crawling through the part configs and weeding out years' worth of accumulated cruft got me thinking about alternatives.  I love the "Pumpkin" 2-seater lander can too much to give up on HGR just yet, but in case an update lands that breaks HGR completely (or I just get tired of making config repairs), here are a couple of other addons which add 1.875m parts:
+Crawling through the part configs and weeding out years' worth of accumulated cruft got me thinking about alternatives.  I love the "Pumpkin" 2-seater lander can too much to give up on HGR just yet, but in case an update lands that breaks HGR's parts completely (or I just get tired of making config repairs), here are a couple of other addons which add 1.875m parts:
 
 * [**Socke's extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/) only has fuel tanks and separators/decouplers, and Socke hasn't been around since last October either.  Thankfully, Merill has made [**an update**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/&do=findComment&comment=1929389) for 1.0.x.
-* Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) is more complete and (more importantly) is actively developed and maintained.  It doesn't have a full range of engines, but there are enough adapters and multi-couplers to let stock engines fill in, and it has pretty much everything else, including a 1.875m "backseat" extension to the Mk1 command pod and a lab.
+* Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) is more complete and (more importantly) is actively developed and maintained.  It doesn't have a 2-seater lander can, but it has pretty much everything else.
 
 ##Download and install
 
 * [**GitHub**](https://github.com/Kerbas-ad-astra/HGR-Community-Fixes/releases)
 * CurseForge
 
-From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameData directory.  (If you've already renamed internal2_RPM.txt to internal2_RPM.cfg, you'll be asked if you want to replace it -- the files are identical, so it doesn't matter which you choose.)
+From there, just unzip the "HGR", "HGR_Redux", and "HGRCommunityFixes" folders into your GameData directory.  Be sure to delete those folders if you're updating from pre-1.6 versions!
 
 ##Version history and changelog
 
@@ -97,10 +96,17 @@ From there, just unzip the "HGR" and "HGRCommunityFixes" folders into your GameD
 	* Fixed transform references for solar panel/antenna.
 	* Updated Edamame service module to ModuleEnginesFX.
 	* Moved parts to new categories (Engine, FuelTank, Coupling, Thermal, Payload, Electrical)
+* 02017 06 XX (1.6.0): Glasnost
+	* Many thanks to Orionkermin for relaxing the license of the parts!
+	* HGR and HGR_Redux parts now fully integrated.  Thanks linuxgurugamer for automatically applying the patches!
+	* Re-worked fairing part to incorporate recent features (e.g. the auto trusses).
+	* G4-LK supply module now has a more proper texture.  (Based on the Onions.)
+* 02017 0X XX (1.7.0): 
+	* Parts now support KSP's internationalization/localization system.
 	
 ##Roadmap
 
-Nothing much -- just keeping things up-to-date.  Unless somebody else makes an up-to-date 1.875m 2-seater lander can and 2-seater blunt capsule -- that's about all I'd need to be done with HGR!
+Nothing much -- just keeping things up-to-date.
 
 ##Credits
 
@@ -110,4 +116,4 @@ And of course, thanks are owed to OrionKermin for HGR itself!  We wouldn't have 
 
 ##License
 
-HGR Community Fixes is copyright 2016 Kerbas_ad_astra.  Configuration files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the HGR Community Fixes logo) reserved.
+HGR Community Fixes is copyright 2017 Kerbas_ad_astra, based on HGR/Home Grown Rockets by Orionkermin.  Models and textures are released under CC-BY-SA (v4.0).  Patch files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the HGR Community Fixes logo) reserved.
