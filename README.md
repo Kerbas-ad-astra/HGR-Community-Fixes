@@ -82,7 +82,7 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	* Updated Edamame service module to ModuleEnginesFX.
 	* Moved parts to new categories (Engine, FuelTank, Coupling, Thermal, Payload, Electrical)
 * 02017 06 17 (1.5.2): 20% Draggier
-	* Integrated HGR_Redux and HGRCommunityFixes parts and patches into the HGR folder.  Many thanks to Orionkermin for relaxing the license of the parts, and to linuxgurugamer for integrating the patches!
+	* Integrated HGR_Redux and HGRCommunityFixes parts and patches into the HGR folder *(so delete your HGR, HGR_Redux, and HGRCommunityFixes folders when updating to this version)*.  Many thanks to Orionkermin for relaxing the license of the parts, and to linuxgurugamer for integrating the patches!
 	* Increased the drag of the Spud pod to give it a subsonic terminal velocity.
 	
 ##Roadmap
