@@ -1,6 +1,6 @@
 {
 	"NAME":"HGR Community Fixes",
-	"URL":"https://raw.githubusercontent.com/Kerbas-ad-astra/HGR-Community-Fixes/master/GameData/HGRCommunityFixes/HGRCommunityFixes.version",
+	"URL":"https://raw.githubusercontent.com/Kerbas-ad-astra/HGR-Community-Fixes/master/GameData/HGR/HGRCommunityFixes.version",
 	"DOWNLOAD":"https://github.com/Kerbas-ad-astra/HGR-Community-Fixes/releases",
 	"GITHUB":{
 		"USERNAME":"Kerbas-ad-astra",
@@ -10,7 +10,7 @@
 	"VERSION":{
 		"MAJOR":1,
 		"MINOR":5,
-		"PATCH":1,
+		"PATCH":2,
 		"BUILD":0
 	},
 	"KSP_VERSION":{
@@ -25,7 +25,7 @@
 	},
 	"KSP_VERSION_MAX":{
 		"MAJOR":1,
-		"MINOR":2,
-		"PATCH":2
+		"MINOR":3,
+		"PATCH":0
 	}
 }

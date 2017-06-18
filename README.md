@@ -96,13 +96,10 @@ From there, just unzip the "HGR", "HGR_Redux", and "HGRCommunityFixes" folders i
 	* Fixed transform references for solar panel/antenna.
 	* Updated Edamame service module to ModuleEnginesFX.
 	* Moved parts to new categories (Engine, FuelTank, Coupling, Thermal, Payload, Electrical)
-* 02017 06 XX (1.6.0): Glasnost
-	* Many thanks to Orionkermin for relaxing the license of the parts!
-	* HGR and HGR_Redux parts now fully integrated.  Thanks linuxgurugamer for automatically applying the patches!
-	* Re-worked fairing part to incorporate recent features (e.g. the auto trusses).
-	* G4-LK supply module now has a more proper texture.  (Based on the Onions.)
-* 02017 0X XX (1.7.0): 
-	* Parts now support KSP's internationalization/localization system.
+* 02017 06 17 (1.5.2): 20% Draggier
+	* Integrated HGR_Redux and HGRCommunityFixes parts and patches into the HGR folder.  Many thanks to Orionkermin for relaxing the license of the parts, and to linuxgurugamer for integrating the patches!
+	* Increased the drag of the Spud pod to give it a subsonic terminal velocity.
+	
 	
 ##Roadmap
 
@@ -110,7 +107,7 @@ Nothing much -- just keeping things up-to-date.
 
 ##Credits
 
-Thanks to speedwaystar for the Windowshine patch, and for contributing to the tech tree and docking port patches, rasta013 for contributing to the lab patch, fatbrother for the fairing mass fix, pacbard for conributing to the engine patch, Sp4C3M0nk3Y for the ASET IVAs, and ZentroCatson for contributing to the KIS patch.
+Thanks to speedwaystar for the Windowshine patch, and for contributing to the tech tree and docking port patches, rasta013 for contributing to the lab patch, fatbrother for the fairing mass fix, pacbard for contributing to the engine patch, Sp4C3M0nk3Y for the ASET IVAs, and ZentroCatson for contributing to the KIS patch.
 
 And of course, thanks are owed to OrionKermin for HGR itself!  We wouldn't have anything to fix if not for him.  :wink:
 
