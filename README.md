@@ -8,34 +8,19 @@
 
 I've been singing the praises of Orionkermin's Home Grown Rockets for a long time.  The jump from Size 1 to Size 2 parts is extremely steep -- a fourfold increase in thrust and an eightfold increase in mass.  Having a set of intermediate 1.875m parts and 2-seater command pods really helps smooth things out.  Orion hasn't had time to develop HGR since late 2015, but he's opened up the license so that I can adopt it and keep it ticking along in the future of KSP.
 
-The following patches are contained in this package (broken out into separate files so others can tinker and critque more easily):
+In addition to updating his parts for KSP 1.2+, I've made a few additions:
 
-* Class-0 antennas added to all pods, and the OX-SJ solar panel is a stackable class-1 antenna.
-	* There's also a patch to remove the obsolete "powerCurve" from the solar panel.  It's probably harmless, but why risk it?
-* Cost and mass fixes for the fuel tanks and fairing.
-* Center of Pressure and Lift offsets for "descent" modules (the Type 45 Soy-Juice descent modules, the Lima, the Radish, and the Spud) and the heat shield, so capsules are passively aerodynamically stable.  Also, buoyancy parameters which match the stock capsules.
-* The docking port is now surface-attachable.
-* An engine patch to bring the engines' thermal properties in line with stock.
-* Fairing patches to rebalance fairing masses.
-* INTERNAL patches to reduce grumbling from KSP when RPM is not installed.
-* A "KAS" patch to remove deprecated KASModuleGrabs from RCS thrusters and the solar panels.
-* ModuleScienceLab is added to the Leek and Advanced Onion pods, so they can reset experiments and otherwise behave correctly.  Probes and labs also provide the appropriate KerbNet access and experiment storage capability (the Lima descent capsule can gather experiments internally, to carry them back home).
 * A new "Garlic" supply pod, to supplement the Lima.  If you have KIS, it will have some "dry inventory" space.
 	* If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Garlic, Daikon, and Edamame service modules will include some extra supplies.
 	* Even if you don't have those mods, the Garlic pod has SAS level 3, to help with docking.
-* The 1.25m inline parachute is not surface-attachable, and now does not claim to be in the editor.  The 0.625m inline parachute now opens at the same altitudes and pressures as the Mk16.
-* The RCS parts have the new plume and sound effects.
 * A fully-staffed Pumpkin pod or suitably-staffed Leek laboratory can be used to provide control of probes.  (With one hop.)
-* Engine patches for the SoyJuice descent modules and service module.  The descent modules now have Isp curves like Sepratrons, and their TWRs match.  If you have the latest version of Landertron (0.11+), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines or Nertea's Deployable Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
-* Tags for the stock searching system and constraints for part tests.
-* Tech tree adjustments, both for stock and Community Tech Tree.
-* A texture-name-fixing patch for the Radish decoupler.
-* Thermal updates so that the capsules match stock capsules, and so that the discrete heat shield, the Radish, and the Spud match stock heat shields.  (They also properly support the 1.0.x updates for Deadly Reentry, I think.)
+* Engine patches for the SoyJuice descent modules and service module.  If you have the latest version of Landertron (0.11+), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines or Nertea's Deployable Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
+* Support for Community Tech Tree.
 * WindowShine reflections for the solar panels (getting shiny windows requires modifications to the textures themselves, which is not in my expertise).
 
 ##Dependencies
 
-HGR Community Fixes depends on [**Home Grown Rockets**](http://forum.kerbalspaceprogram.com/index.php?/topic/55521-102hgr-1875m-partsv130-released/) (v1.3.0), of course, and [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/).
+HGR Community Fixes depends on [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/) for mod support.
 
 ##Recommended addons
 
@@ -45,15 +30,15 @@ If you're going to use 1.875m parts, you might as well get [**Filter Extension**
 
 Crawling through the part configs and weeding out years' worth of accumulated cruft got me thinking about alternatives.  I love the "Pumpkin" 2-seater lander can too much to give up on HGR just yet, but in case an update lands that breaks HGR's parts completely (or I just get tired of making config repairs), here are a couple of other addons which add 1.875m parts:
 
-* [**Socke's extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/) only has fuel tanks and separators/decouplers, and Socke hasn't been around since last October either.  Thankfully, Merill has made [**an update**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/&do=findComment&comment=1929389) for 1.0.x.
-* Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) is more complete and (more importantly) is actively developed and maintained.  It doesn't have a 2-seater lander can, but it has pretty much everything else.
+* [**Socke's extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/) only has fuel tanks and separators/decouplers, and Socke hasn't been around since October 2015 either.  Thankfully, Merill has made [**an update**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/&do=findComment&comment=1929389) for 1.0.x.
+* Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) has lots more Gemini-based hardware.  It doesn't have a 2-seater lander can, but it has pretty much everything else -- labs, habs, wet workshops, and more!
 
 ##Download and install
 
 * [**GitHub**](https://github.com/Kerbas-ad-astra/HGR-Community-Fixes/releases)
 * CurseForge
 
-From there, just unzip the "HGR", "HGR_Redux", and "HGRCommunityFixes" folders into your GameData directory.  Be sure to delete those folders if you're updating from pre-1.6 versions!
+From there, just unzip the "HGR" folder into your GameData directory.  Be sure to delete any HGR, HGR_Redux and HGRCommunityFixes folders first if you're updating from pre-1.5.2 versions!
 
 ##Version history and changelog
 
@@ -100,10 +85,11 @@ From there, just unzip the "HGR", "HGR_Redux", and "HGRCommunityFixes" folders i
 	* Integrated HGR_Redux and HGRCommunityFixes parts and patches into the HGR folder.  Many thanks to Orionkermin for relaxing the license of the parts, and to linuxgurugamer for integrating the patches!
 	* Increased the drag of the Spud pod to give it a subsonic terminal velocity.
 	
-	
 ##Roadmap
 
-Nothing much -- just keeping things up-to-date.
+* Give the Garlic pod a proper texture
+* Add localization support
+* Add trusses to fairing?
 
 ##Credits
 
