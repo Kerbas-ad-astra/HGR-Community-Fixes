@@ -84,12 +84,14 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 * 02017 06 17 (1.5.2): 20% Draggier
 	* Integrated HGR_Redux and HGRCommunityFixes parts and patches into the HGR folder *(so delete your HGR, HGR_Redux, and HGRCommunityFixes folders when updating to this version)*.  Many thanks to Orionkermin for relaxing the license of the parts, and to linuxgurugamer for integrating the patches!
 	* Increased the drag of the Spud pod to give it a subsonic terminal velocity.
+* 02018 03 2X (1.6.0): Glasnost
+	* Parts now support KSP's internationalization/localization system.
+	* Re-worked fairing part to incorporate recent features (e.g. the auto trusses).
+	* G4-LK supply module now has a more proper texture.  (Based on the Onions.)
 	
 ##Roadmap
 
-* Give the Garlic pod a proper texture
-* Add localization support
-* Add trusses to fairing?
+Keep HGR ticking along!
 
 ##Credits
 
@@ -99,4 +101,4 @@ And of course, thanks are owed to OrionKermin for HGR itself!  We wouldn't have 
 
 ##License
 
-HGR Community Fixes is copyright 2017 Kerbas_ad_astra, based on HGR/Home Grown Rockets by Orionkermin.  Models and textures are released under CC-BY-SA (v4.0).  Patch files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the HGR Community Fixes logo) reserved.
+HGR Community Fixes is copyright 2016-2018 Kerbas_ad_astra, based on HGR/Home Grown Rockets by Orionkermin.  Models and textures are released under CC-BY-SA (v4.0).  Patch files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the HGR Community Fixes logo) reserved.
