@@ -85,9 +85,18 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	* Integrated HGR_Redux and HGRCommunityFixes parts and patches into the HGR folder *(so delete your HGR, HGR_Redux, and HGRCommunityFixes folders when updating to this version)*.  Many thanks to Orionkermin for relaxing the license of the parts, and to linuxgurugamer for integrating the patches!
 	* Increased the drag of the Spud pod to give it a subsonic terminal velocity.
 * 02018 03 2X (1.6.0): Glasnost
-	* Parts now support KSP's internationalization/localization system.
-	* Re-worked fairing part to incorporate recent features (e.g. the auto trusses).
+	* Updated for KSP 1.4:
+		* Parts now support KSP's internationalization/localization system.
+		* Fairing incorporates auto-trusses and color switching.
 	* G4-LK supply module now has a more proper texture.  (Based on the Onions.)
+	* Heat shield fixed to actually protect the descent capsule.
+	* Small inline parachute deployment speed slowed.
+	* Several capsule masses reduced (especially Soy-Juice).
+	* Onion capsules now include more life support functionality (USI-LS).
+	* Thanks to Pand5461 for a few suggestions.  Those I accepted include:
+		* Edamame service module now MonoPropellant only (engine rebalanced).
+		* Increased battery capacity to Daikon service module.
+		* RCS thrusters in line with stock thruster stats.
 	
 ##Roadmap
 
