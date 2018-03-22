@@ -1,10 +1,10 @@
-#HGR Community Fixes
+# HGR Community Fixes
 
 *Home-Grown Fixes for Home-Grown Rockets.*
 
 ![HGR Community Fixes logo](https://github.com/Kerbas-ad-astra/HGR-Community-Fixes/raw/master/HGR%20Community%20Fixes%20logo.png)
 
-##Features
+## Features
 
 I've been singing the praises of Orionkermin's Home Grown Rockets for a long time.  The jump from Size 1 to Size 2 parts is extremely steep -- a fourfold increase in thrust and an eightfold increase in mass.  Having a set of intermediate 1.875m parts and 2-seater command pods really helps smooth things out.  Orion hasn't had time to develop HGR since late 2015, but he's opened up the license so that I can adopt it and keep it ticking along in the future of KSP.
 
@@ -18,29 +18,29 @@ In addition to updating his parts for KSP 1.2+, I've made a few additions:
 * Support for Community Tech Tree.
 * WindowShine reflections for the solar panels (getting shiny windows requires modifications to the textures themselves, which is not in my expertise).
 
-##Dependencies
+## Dependencies
 
 HGR Community Fixes depends on [**Module Manager**](http://forum.kerbalspaceprogram.com/index.php?/topic/50533-105-module-manager-2618-january-17th-with-even-more-sha-and-less-bug/) for mod support.
 
-##Recommended addons
+## Recommended addons
 
 If you're going to use 1.875m parts, you might as well get [**Filter Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/93955-105-filter-extensions-2412-nov-10/) so that the "size1p5" category gets a proper icon and description in the "Filter by Cross-Section" menu.
 
-##Suggested addons
+## Suggested addons
 
 Crawling through the part configs and weeding out years' worth of accumulated cruft got me thinking about alternatives.  I love the "Pumpkin" 2-seater lander can too much to give up on HGR just yet, but in case an update lands that breaks HGR's parts completely (or I just get tired of making config repairs), here are a couple of other addons which add 1.875m parts:
 
 * [**Socke's extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/) only has fuel tanks and separators/decouplers, and Socke hasn't been around since October 2015 either.  Thankfully, Merill has made [**an update**](http://forum.kerbalspaceprogram.com/index.php?/topic/88780-wip-sockes-parts-1875m-extension/&do=findComment&comment=1929389) for 1.0.x.
 * Angel-125's [**Mark One Laboratory Extension**](http://forum.kerbalspaceprogram.com/index.php?/topic/94352-alpha-105-mark-one-laboratory-extensions-mole-v03/) has lots more Gemini-based hardware.  It doesn't have a 2-seater lander can, but it has pretty much everything else -- labs, habs, wet workshops, and more!
 
-##Download and install
+## Download and install
 
 * [**GitHub**](https://github.com/Kerbas-ad-astra/HGR-Community-Fixes/releases)
 * CurseForge
 
 From there, just unzip the "HGR" folder into your GameData directory.  Be sure to delete any HGR, HGR_Redux and HGRCommunityFixes folders first if you're updating from pre-1.5.2 versions!
 
-##Version history and changelog
+## Version history and changelog
 
 * 2016 02 06 (1.0): Initial release.
 * 2016 02 14 (1.1): Vegetable Gardening
@@ -91,23 +91,25 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	* G4-LK supply module now has a more proper texture.  (Based on the Onions.)
 	* Heat shield fixed to actually protect the descent capsule.
 	* Small inline parachute deployment speed slowed.
-	* Several capsule masses reduced (especially Soy-Juice).
-	* Onion capsules now include more life support functionality (USI-LS).
-	* Thanks to Pand5461 for a few suggestions.  Those I accepted include:
+	* Thanks to @Pand5461 for a few suggestions.  Those I accepted include:
 		* Edamame service module now MonoPropellant only (engine rebalanced).
 		* Increased battery capacity to Daikon service module.
 		* RCS thrusters in line with stock thruster stats.
+		* Several capsule masses reduced (especially Soy-Juice).
+	* Thanks to @Mihara for a couple of suggestions:
+		* Slightly more room in the Garlic pod (so you can fit a container in a container).
+		* Onion capsules now include life support recycler and habitation functionality (USI-LS).
 	
-##Roadmap
+## Roadmap
 
 Keep HGR ticking along!
 
-##Credits
+## Credits
 
 Thanks to speedwaystar for the Windowshine patch, and for contributing to the tech tree and docking port patches, rasta013 for contributing to the lab patch, fatbrother for the fairing mass fix, pacbard for contributing to the engine patch, Sp4C3M0nk3Y for the ASET IVAs, and ZentroCatson for contributing to the KIS patch.
 
 And of course, thanks are owed to OrionKermin for HGR itself!  We wouldn't have anything to fix if not for him.  :wink:
 
-##License
+## License
 
 HGR Community Fixes is copyright 2016-2018 Kerbas_ad_astra, based on HGR/Home Grown Rockets by Orionkermin.  Models and textures are released under CC-BY-SA (v4.0).  Patch files are released under the [**GPL v3 license**](https://www.gnu.org/licenses/gpl-3.0) (or any later version).  Any redistributions must use a different name and folder (per section 7c).  All other rights (e.g. the HGR Community Fixes logo) reserved.
