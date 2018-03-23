@@ -99,6 +99,7 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	* Thanks to @Mihara for a couple of suggestions:
 		* Slightly more inventory volume in the Garlic pod (so you can fit a container in a container).
 		* Onion capsules now include life support recycler and habitation functionality (USI-LS).
+	* Tank balance pass (including service modules) -- tanks no longer contain more fuel than their physical volumes.
 	
 ## Roadmap
 
