@@ -86,18 +86,18 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	* Increased the drag of the Spud pod to give it a subsonic terminal velocity.
 * 02018 03 2X (1.6.0): Glasnost
 	* Updated for KSP 1.4:
-		* Parts now support KSP's internationalization/localization system.
+		* Parts now support KSP's internationalization/localization system.  (Thanks to @ihsoft for the automatic localization software!)
 		* Fairing incorporates auto-trusses and color switching.
 	* G4-LK supply module now has a more proper texture.  (Based on the Onions.)
 	* Heat shield fixed to actually protect the descent capsule.
 	* Small inline parachute deployment speed slowed.
-	* Thanks to @Pand5461 for a few suggestions.  Those I accepted include:
+	* Thanks to Pand5461 for a few suggestions.  Those I accepted include:
 		* Edamame service module now MonoPropellant only (engine rebalanced).
 		* Increased battery capacity to Daikon service module.
 		* RCS thrusters in line with stock thruster stats.
 		* Several capsule masses reduced (especially Soy-Juice).
 	* Thanks to @Mihara for a couple of suggestions:
-		* Slightly more room in the Garlic pod (so you can fit a container in a container).
+		* Slightly more inventory volume in the Garlic pod (so you can fit a container in a container).
 		* Onion capsules now include life support recycler and habitation functionality (USI-LS).
 	
 ## Roadmap
