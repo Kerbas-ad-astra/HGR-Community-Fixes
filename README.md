@@ -92,9 +92,7 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	* Heat shield fixed to actually protect the descent capsule.
 	* Small inline parachute deployment speed slowed.
 	* Thanks to Pand5461 for a few suggestions.  Those I accepted include:
-		* Edamame service module now MonoPropellant only (engine rebalanced).
-		* Increased battery capacity to Daikon service module.
-		* RCS thrusters in line with stock thruster stats.
+		* Increased battery capacity of Daikon service module.
 		* Several capsule masses reduced (especially Soy-Juice).
 	* Thanks to @Mihara for a couple of suggestions:
 		* Slightly more inventory volume in the Garlic pod (so you can fit a container in a container).
@@ -103,7 +101,7 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	
 ## Roadmap
 
-Keep HGR ticking along!
+Finish the 'Lima' module -- give it a higher-res texture and a normal map.  (First I have to learn how to modify part models.)
 
 ## Credits
 
