@@ -84,7 +84,7 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 * 02017 06 17 (1.5.2): 20% Draggier
 	* Integrated HGR_Redux and HGRCommunityFixes parts and patches into the HGR folder *(so delete your HGR, HGR_Redux, and HGRCommunityFixes folders when updating to this version)*.  Many thanks to Orionkermin for relaxing the license of the parts, and to linuxgurugamer for integrating the patches!
 	* Increased the drag of the Spud pod to give it a subsonic terminal velocity.
-* 02018 03 2X (1.6.0): Glasnost
+* 02018 03 23 (1.6.0): Glasnost
 	* Updated for KSP 1.4:
 		* Parts now support KSP's internationalization/localization system.  (Thanks to @ihsoft for the automatic localization software!)
 		* Fairing incorporates auto-trusses and color switching.
