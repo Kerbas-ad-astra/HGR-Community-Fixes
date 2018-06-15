@@ -98,6 +98,9 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 		* Slightly more inventory volume in the Garlic pod (so you can fit a container in a container).
 		* Onion capsules now include life support recycler and habitation functionality (USI-LS).
 	* Tank balance pass (including service modules) -- tanks no longer contain more fuel than their physical volumes.
+* 02018 06 XX (1.6.1): Comrade Ogilvy
+	* Changing the internal name of the 1.875m fairings from "fairingSize1.5" to "fairingSize1p5HGR", to avoid any possible confusion with the Making History "fairingSize1p5" in Module Manager patches.  The "fairingSize1.5" part still exists, but it's been marked as "TechHidden" like the stock Mk1-2 Pod and other parts to be deprecated, and it will be removed in the next release of HGR.
+	* Made the Lima pod a recolor of the Soy-Juice capsule.  Recolored the Garlic pod to match.
 	
 ## Roadmap
 
