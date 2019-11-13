@@ -14,7 +14,7 @@ In addition to updating his parts for KSP 1.2+, I've made a few additions:
 	- If you have a life support addon installed (ECLSS, IFILS, Ioncross, Snacks!, TAC-LS, or USI-LS), the Garlic, Daikon, and Edamame service modules will include some extra supplies.
 	- Even if you don't have those mods, the Garlic pod has SAS level 3, to help with docking.
 - A fully-staffed Pumpkin pod or suitably-staffed Leek laboratory can be used to provide control of probes.  (With one hop.)
-- Engine patches for the SoyJuice descent modules and service module.  If you have the latest version of Landertron (0.11+), the engines can be set to automatically fire just before landing, just like the Soyuz.  If BahamutoD's Animated Engines or Nertea's Deployable Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
+- Engine patches for the SoyJuice service module.  If BahamutoD's Animated Engines or Nertea's Deployable Engines is installed, the Edamame service module's engine cover will automatically respond to the activation and deactivation of the engine.
 - Support for Community Tech Tree.
 - WindowShine reflections for the solar panels (getting shiny windows requires modifications to the textures themselves, which is not in my expertise).
 
@@ -99,9 +99,10 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 	- Made the Lima pod a recolor of the Soy-Juice capsule.  Recolored the Garlic pod to match.
 - 02018 Nov 03 (1.6.2): Orange You Glad
 	- Added fairing color options to Heavy LES tower.
-- 02019 Nov XX (1.7.0): To Protect The Lifecycle
-	- Fully removed "fairingSize1.5" part.
+- 02019 Nov 12 (1.7.0): To Protect The Lifecycle
+	- Fully removed "fairingSize1.5" part (*under that name* -- fairingSize1p5HGR has the exact same model, just a new internal name to prevent confusion with Making History's "fairingSize1p5" in patches).
 	- Updated USI-LS patch for USI-LS 1.1.  That update was made for KSP 1.6, so **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.4 or 1.5**
+	- Disabled Landertron
 	
 ## Roadmap
 
