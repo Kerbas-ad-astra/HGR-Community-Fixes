@@ -102,7 +102,7 @@ From there, just unzip the "HGR" folder into your GameData directory.  Be sure t
 - 02019 Nov 12 (1.7.0): To Protect The Lifecycle
 	- Fully removed "fairingSize1.5" part (*under that name* -- fairingSize1p5HGR has the exact same model, just a new internal name to prevent confusion with Making History's "fairingSize1p5" in patches).
 	- Updated USI-LS patch for USI-LS 1.1.  That update was made for KSP 1.6, so **this and subsequent versions of HGR Community Fixes are not compatible with KSP 1.4 or 1.5**
-	- Disabled Landertron
+	- Disabled Landertron patch (Landertron's model is too simplified and conservative to work well when the capsule is descending slowly under its parachute).
 	
 ## Roadmap
 
